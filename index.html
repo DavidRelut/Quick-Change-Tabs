@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <title>Quick Change Tabs</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="tabs js-tabs">
+
+      <form action="#" class="tabs__form js-tabs__change-form">
+        <input class="input js-tabs__change-field" name="index" type="number" placeholder="Enter tab index" />
+        <div class="tabs__change">
+          <button class="button">Change tab</button>
+        </div>
+      </form>
+
+      <div class="tabs__buttons">
+        <div class="tabs__button tabs__button--active js-tabs__button" data-tab-index="1">Positive</div>
+        <div class="tabs__button js-tabs__button" data-tab-index="2">Negative</div>
+        <div class="tabs__button js-tabs__button" data-tab-index="3">Neutral</div>
+      </div>
+
+      <div class="tabs__content tabs__content--active js-tabs__content" data-tab-index="1">Positive content</div>
+      <div class="tabs__content js-tabs__content" data-tab-index="2">Negative content</div>
+      <div class="tabs__content js-tabs__content" data-tab-index="3">Neutral content</div>
+
+    </div>
+  </div>
+</body>
+</html>

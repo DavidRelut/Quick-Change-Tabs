@@ -1,0 +1,90 @@
+body {
+  background: #2980b9;
+  font-size: 14px;
+}
+
+/* GLOBAL STYLE */
+
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #dedede;
+  background-color: palevioletred;
+  border-radius: 20px;
+  width: 400px;
+  margin: 100px auto 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.input {
+  border: 4px solid;
+  border-bottom-style: groove;
+  border-color: rgb(171 0 255) #cebe32;
+  width: 19rem;
+  text-align: center;
+  color: wheat;
+  background: #333;
+  outline: 0;
+  height: 30px;
+  font-size: 14px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.button {
+  border: none;
+  width: 8rem;
+  padding: 7px;
+  border-radius: 3px;
+  background-color: rgb(228, 228, 60) ;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.button:hover {
+  color: #2980b9;
+}
+
+.button:active {
+  top: 1px;
+}
+
+.tabs__form {
+  display: flex;
+  align-items: center;
+}
+
+.tabs__change {
+  margin-left: 10px;
+}
+
+.tabs__buttons {
+  margin: 20px 0;
+  margin-left: 4px;
+}
+
+.tabs__button {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.tabs__button--active,
+.tabs__button:hover {
+  color: #333;
+}
+
+.tabs__content {
+  display: none;
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+.tabs__content--active {
+    display: block;
+}
